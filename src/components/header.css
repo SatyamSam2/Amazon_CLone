@@ -1,12 +1,11 @@
 
 .header{
-    height: 65px;
+    height: 55px;
     width: 100%;
-background-color: black;
-display: flex;
+    background-color: RGB(19, 26, 34);
+    display: flex;
 }
 .img-container{
-    /* background-color: blue; */
     height: 100%;
     width: 120px;
     margin-left: 8px;
@@ -16,12 +15,11 @@ display: flex;
 }
 
 .img-container img{
-    height: 70%;
-    width: 79%;
+    height: 90%;
+    width: 100%;
 }
 
 .content-container{
-    /* background-color: red; */
     height: 100%;
     width: 200px;
     display: flex;
@@ -30,7 +28,6 @@ display: flex;
     align-items: center;
 }
 .hello{
-    /* background-color: lightcoral; */
     width: 160px;
     display: flex;
     justify-content: flex-start;
@@ -39,14 +36,12 @@ display: flex;
 }
 .Address{
     width: 160px;
-    /* background-color: aqua; */
     display: flex;
     justify-content: flex-start;
     font-weight:600;
     color: white;
 }
-.search-parent{
-    /* background-color: lightblue; */
+.search-box{
     height: 100%;
     width: 800px;
     display: flex;
@@ -54,31 +49,79 @@ display: flex;
     align-items: center;
 
 }
-.search-parent input{
-    height: 75%;
-    width: 90%;
-    border-radius: 8px;
+.search-box input{
+    height: 60%;
+    width:650px;
+    border-radius: 4px;
     border: none;
+    margin-left: -180px;
 }
-.cart {
-    position: relative;
+.flag{
+    margin-left: -150px;
     display: flex;
     justify-content: center;
     align-items: center;
-  width: 60px;
+}
+.sign-in{
+    height: 100%;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+}
+.hello{
+    width:160px;
+    justify-content: flex-start;
+    font-size: small;
+}
+.account{
+    width: 160px;
+    font-weight: 550;
+    justify-content: flex-start;
+}
+.return-order{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.return{
+    font-size: small;
+}
+.order{
+    font-weight: 600;
+
+}
+
+.cart {
+    position: relative;
+    height: 100%;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+.cart img{
+    height: 100%;
+    width: 100%;
 }
 .box{
     position: absolute;
-    /* background-color: yellow; */
     font-weight: bold;
-    color:red;
+    color:white;
     width: 30px;
     height: 30px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 8px;
-    left: 40px;
+    top: 4px;
+    left: 45px;
 
 }

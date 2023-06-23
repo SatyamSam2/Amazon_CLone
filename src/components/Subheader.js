@@ -6,15 +6,16 @@ function Subheader() {
     return (
         <>
             <div className="subheader">
-                <Link to="/shirt" style={{ textDecoration: "none" }}>
+                <Link to="/shirt">
                     <div>Shirts</div>
                 </Link>
-                <Link to="/pant" style={{ textDecoration: "none" }}>
+                <Link to="/pant">
                     <div>Pants</div>
                 </Link>
-                
-            
             </div>
+            <div className='image'>
+                    <img src='/images/kgf.png'/>
+                </div>
         </>
     )
 }

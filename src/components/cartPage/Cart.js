@@ -1,20 +1,16 @@
 import React,{useState} from 'react'
-// import "../card.css"
 import './cart.css'
 export default function Cart({ cart }) {
-
-
-
-  return (
+  return ( 
     <>
 
       {
         cart.cart.length == 0 ?
-          <div className='cart-container'>
-            no product in cart.
-          </div>
+           <div className='cart-container'>
+            No product in cart.
+           </div>
           :
-          cart.cart.map((ele) => {
+         cart.cart.map((ele) => {
             return (
               <div className='cart-container'>
                 <div className='container'>

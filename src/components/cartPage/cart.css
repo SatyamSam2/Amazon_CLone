@@ -1,7 +1,7 @@
 .cart-container{
-    background-color:lightblue;
+    background-color:RGB(254, 189, 105);
     height: 30%;
-    width: 70%;
+    width: 60%;
     margin-left: 10%;
     margin-top: 50px;
     padding: 2px;
@@ -11,11 +11,9 @@
 
 
 .product-detail{
-    /* background-color: yellow; */
     width: 10%;
     height: 40%;
-    margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,11 +21,9 @@
     font-weight: bold;
 }
 .quantity-container{
-    background-color: yellow;
     width: 15%;
     height: 50%;
-    margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,43 +32,42 @@
 }
 .quantity-container>button{
     height: 50px;
-    width: 50px;
+    width: 40px;
     font-size: large;
 }
 .delete{
-    /* background-color: yellow; */
     width: 15%;
     height: 40%;
-    margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .total{
-    background-color: yellow;
+    background-color: aliceblue;
     width: 15%;
     height: 40%;
-    margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
+    margin-left: 30px;
 }
 .delete>button {
-    border: 1 px solid black;
+    border: 0.5px solid rgba(0, 0, 0, 0.651);
     border-radius: 4px;
     font-weight: 600;
     
 }
 .container{
     width: 20%;
-    height: 98%;
+    height: 100%;
 }
 
 .container>img{
-    width: 100%;
+    width: 90%;
     height: 100%;
 }

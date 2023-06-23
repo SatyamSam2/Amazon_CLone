@@ -1,6 +1,5 @@
 import React from 'react'
-import "../card.css"
-// destructing 
+import "../card.css" 
 export default function ShirtComp({data}) {
     console.log(data)
   return (
@@ -16,9 +15,9 @@ export default function ShirtComp({data}) {
                     </div>
                     <div className='details'>
                         <div className='title'>{ele.title}</div>
-                        <div className='price'>{ ele.price}</div>
+                        <div className='price'>Rs. { ele.price}</div>
                         <div className='quantity'>{ ele.quantity}</div>
-                        <button onClick={()=>data.addToCart(ele)}>Add to Cart</button>
+                        <center><button onClick={()=>data.addToCart(ele)} className='button'>Add to Cart</button></center>
                     </div>
                 </div>
             )
